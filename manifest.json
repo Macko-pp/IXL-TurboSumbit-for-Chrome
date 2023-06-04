@@ -1,0 +1,28 @@
+{
+
+	"name": "TurboSubmit for IXL",
+	"description": "Automates answers on IXL assignments. Just click to activate and refresh to stop.",
+	"homepage_url": "https://github.com/Macko-pp/IXL-TurboSumbit-for-Chrome",
+	"manifest_version": 3,
+	"version": "0.1",
+	"icons": {
+		"48": "icons/ixlCheat-500.png"
+	},
+
+	"action": {
+  		"default_icon": {
+    		"32": "icons/ixlCheat-32.png"
+  		},
+  		"default_title": "TurboSubmit"
+	},
+
+	"background": {
+		"service_worker": "background.js"
+	},
+
+	"permissions": [
+		"activeTab",
+		"scripting"
+	]
+
+}
